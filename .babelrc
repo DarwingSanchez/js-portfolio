@@ -1,0 +1,16 @@
+/* Configurando babel:
+1. Los presets
+2. Los plugins */
+
+{
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
+
+/* Luego debemos de configurar: 
+Debemos añadir la misma configuración en webpack para que entienda que tiene que 
+trabajar con estos recursos. */
